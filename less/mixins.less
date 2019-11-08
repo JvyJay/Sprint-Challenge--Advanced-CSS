@@ -1,1 +1,12 @@
 // Mixins Here
+.button(@bg-color, @color, @t-align) {
+    background: @bg-color;
+    color: @color;
+    text-align: @t-align;
+}
+
+.mobile-align(@c, @j-align, @a-align) {
+    flex-direction: @c;
+    justify-content: @j-align;
+    align-items: @a-align;
+}
